@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Indica que el idioma del contenido es español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el viewport para dispositivos móviles -->
+    <title>Inicio - Medio Ambiente en Mollet del Vallés</title> <!-- Título que aparecerá en la pestaña del navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula un archivo CSS externo para estilos -->
+    <style>
+        /* Estilos CSS para el diseño de la página */
+        body {
+            text-align: center; /* Centra el texto en todo el cuerpo */
+            background-color: #e0f7fa; /* Color de fondo claro */
+            padding: 5%; /* Espaciado interno del cuerpo */
+        }
+        header {
+            margin-bottom: 5%; /* Espacio inferior en el encabezado */
+        }
+        article {
+            margin: 5%; /* Espaciado entre artículos */
+            border: 0.5% solid #4CAF50; /* Borde verde */
+            border-radius: 2%; /* Bordes redondeados */
+            background-color: #ffffff; /* Fondo blanco para los artículos */
+            padding: 5%; /* Espaciado interno */
+            box-shadow: 0 2% 4% rgba(0, 0, 0, 0.2); /* Sombra */
+            text-align: center; /* Centra el texto dentro del artículo */
+        }
+        section#inicio {
+            background-color: #f9f9f9; /* Fondo claro para la sección */
+            border: 0.5% solid #4CAF50; /* Borde verde para la sección */
+            border-radius: 2%; /* Bordes redondeados para la sección */
+            padding: 5%; /* Espaciado interno en la sección */
+            margin: 5% auto; /* Centra la sección */
+            max-width: 80%; /* Ancho máximo de la sección */
+        }
+        img {
+            width: 100%; /* Ajusta el tamaño de las imágenes al 100% del contenedor */
+            max-width: 60%; /* Tamaño máximo de las imágenes */
+            height: auto; /* Mantiene la proporción de las imágenes */
+        }
+        a {
+            color: #4CAF50; /* Color del texto de los enlaces */
+        }
+        nav ul {
+            list-style-type: none; /* Sin viñetas en la lista de navegación */
+            padding: 0; /* Sin espaciado interno */
+        }
+        nav ul li {
+            display: inline; /* Muestra los elementos de la lista en línea */
+            margin: 0 3%; /* Espaciado horizontal entre los elementos */
+        }
+        footer {
+            margin-top: 5%; /* Espaciado superior en el pie de página */
+            color: black; /* Color del texto en el pie de página */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conservación del Medio Ambiente en Mollet del Vallés</h1> <!-- Título principal de la página -->
+        <a href="https://www.molletvalles.cat//"> <!-- Enlace al sitio web del Ayuntamiento -->
+            <img src="logoMollet.jpg" alt="Logo del Ayuntamiento" style="max-width: 30%; height: auto;"> <!-- Logo del Ayuntamiento -->
+        </a>
+       
+        <nav>
+            <ul> <!-- Lista de navegación -->
+                <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="contacto.html">Contacto</a></li> <!-- Enlace a la página de contacto -->
+                <li><a href="galeria.html">Galería</a></li> <!-- Enlace a la galería -->
+                <li><a href="medidas.html">Medidas Medioambientales</a></li> <!-- Enlace a medidas medioambientales -->
+                <li><a href="consejos.html">Consejos</a></li> <!-- Enlace a consejos -->
+                <li><a href="ue.html">Unión Europea</a></li> <!-- Enlace a la sección de la Unión Europea -->
+                <li><a href="citas.html">Citaciones</a></li> <!-- Enlace a la sección de citaciones -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio"> <!-- Sección principal de inicio -->
+            <h2>Noticias y Eventos</h2> <!-- Título de la sección de noticias y eventos -->
+            <article> <!-- Artículo de noticias -->
+                <h3>Evento de Limpieza de Espacios Públicos</h3> <!-- Título del artículo -->
+                <p>Únete a nosotros el 15 de enero para limpiar nuestros parques y espacios públicos. ¡Tu participación es crucial para mantener nuestra ciudad limpia!</p> <!-- Descripción del evento -->
+                <a href="https://www.molletvalles.cat/es/servicios/gestion-de-residuos-y-limpieza-viaria/limpieza-vial//"> <!-- Enlace al evento -->
+                    <img src="mollet+net.jpg" alt="Evento de limpieza"> <!-- Imagen del evento -->
+                </a>
+            </article>
+            <article> <!-- Segundo artículo de noticias -->
+                <h3>Nuevo Punto de Reciclaje Inaugurado</h3> <!-- Título del artículo -->
+                <p>Se ha inaugurado un nuevo punto de reciclaje en el centro de la ciudad para facilitar la separación de residuos. ¡Utiliza este servicio y contribuye al medio ambiente!</p> <!-- Descripción del nuevo punto de reciclaje -->
+                <a href="https://www.molletvalles.cat/ca/serveis/gestio-de-residus-i-neteja-viaria/deixalleria-mobil//"> <!-- Enlace al punto de reciclaje -->
+                    <img src="deixalleriamollet.jpg" alt="Punto de reciclaje"> <!-- Imagen del punto de reciclaje -->
+                </a>    
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ayuntamiento de Mollet del Vallés</p> <!-- Pie de página con derechos de autor -->
+        <a href="#inicio">Volver al inicio</a> <!-- Anclaje para volver al inicio -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+header {
+    background: #4CAF50; /* Color de encabezado */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* Ancho máximo para el contenido */
+    margin: auto; /* Centrar el contenido */
+}
+
+h2, h3 {
+    text-align: center; /* Centrar los encabezados */
+}
+
+article, section {
+    background: white; /* Fondo blanco para artículos y secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 15px;
+    margin-bottom: 20px; /* Espacio entre artículos */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+figure {
+    text-align: center; /* Centrar las figuras */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2; /* Fondo del formulario */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px; /* Bordes redondeados para campos */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+form button {
+    background: #4CAF50; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049; /* Color del botón al pasar el ratón */
+}
